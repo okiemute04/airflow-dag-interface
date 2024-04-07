@@ -41,7 +41,7 @@ print(result)
 # Example: Retrieve DAG runs for a specific DAG
 dag_runs = interface.get_dag_runs(dag_id)
 print(dag_runs)
-...
+```
 
 ## Testing:
 
@@ -49,7 +49,7 @@ This library includes unit tests written with pytest. To run the tests, navigate
 
 ```bash
 pytest
-...
+```
 
 ## Contributing:
 
