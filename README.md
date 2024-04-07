@@ -20,7 +20,7 @@ This Python library provides a user-friendly interface to interact with the Airf
 
 ## Installation:
 
-1. Clone or download this repository.
+1. Clone or download this repository. git clone https://github.com/okiemute04/airflow-dag-interface
 2. Navigate to the project directory in your terminal.
 3. Install dependencies using `pip install -r requirements.txt`.
 
@@ -41,6 +41,7 @@ print(result)
 # Example: Retrieve DAG runs for a specific DAG
 dag_runs = interface.get_dag_runs(dag_id)
 print(dag_runs)
+...
 
 ## Testing:
 
@@ -48,6 +49,7 @@ This library includes unit tests written with pytest. To run the tests, navigate
 
 ```bash
 pytest
+...
 
 ## Contributing:
 
@@ -56,5 +58,6 @@ Contributions are welcome! Please feel free to submit issues or pull requests.
 ## License:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
 
 
