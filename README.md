@@ -12,11 +12,15 @@ This Python library provides a user-friendly interface to interact with the Airf
   
 - **Retrieve Task Information**: Get details about specific tasks within a DAG (`get_task_info`, `get_task_instance_info`).
   
+- **Test API Server Connection: Verify connectivity with the Airflow API server.
+  
 - **Manage Pools**: Interact with Airflow's pool system for resource allocation:
   - List all pools (`get_all_pools`).
   - Retrieve information about a specific pool (`get_pool_by_name`).
   - Create new pools (`create_pool`).
   - Delete pools (`delete_pool`).
+    
+  
 
 ## Installation:
 
