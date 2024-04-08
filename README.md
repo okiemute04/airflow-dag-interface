@@ -1,33 +1,3 @@
-<<<<<<< HEAD
-Airflow DAG Interface Python Library
-
-This Python library provides a user-friendly interface to interact with the Airflow API, specifically focusing on managing DAGs (Directed Acyclic Graphs). It simplifies tasks like creating DAGs, retrieving DAG information, and managing pools.
-
-Key Features:
-
-Create DAG Runs: Programmatically initiate DAG runs using the create_dag function.
-
-Manage DAG Information: Retrieve details about DAG runs (get_dag_runs), individual DAG run information (get_dag_run_info), and the paused state of a DAG (get_dag_paused_state).
-
-Pause/Unpause DAGs: Control the execution state of DAGs using pause_dag and unpause_dag.
-
-Retrieve Task Information: Get details about specific tasks within a DAG (get_task_info, get_task_instance_info).
-
-Manage Pools: Interact with Airflow's pool system for resource allocation:
-List all pools (get_all_pools).
-Retrieve information about a specific pool (get_pool_by_name).
-Create new pools (create_pool).
-Delete pools (delete_pool).
-
-Installation:
-
-Clone or download this repository.
-Navigate to the project directory in your terminal.
-Install dependencies using pip install -r requirements.txt
-
-Usage:
-
-=======
 # Airflow DAG Interface Python Library
 
 This Python library provides a user-friendly interface to interact with the Airflow API, specifically focusing on managing DAGs (Directed Acyclic Graphs). It simplifies tasks like creating DAGs, retrieving DAG information, and managing pools.
