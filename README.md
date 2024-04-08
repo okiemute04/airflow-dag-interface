@@ -31,7 +31,7 @@ This Python library provides a user-friendly interface to interact with the Airf
 ## Usage:
 
 ```python
->>>>>>> main
+
 from airflow_dag_interface import AirflowDAGInterface
 
 # Initialize the interface with the base URL of the Airflow API
