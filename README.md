@@ -46,22 +46,10 @@ print(result)
 # Example: Retrieve DAG runs for a specific DAG
 dag_runs = interface.get_dag_runs(dag_id)
 print(dag_runs)
-<<<<<<< HEAD
-
-Testing:
-
-This library includes unit tests written with pytest. To run the tests, navigate to the project directory and execute:
-
-pytest
-
-Contributing:
-
-Contributions are welcome! Please feel free to submit issues or pull requests.
-
-License:
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 ```
+
+
+
 
 ## Testing:
 
